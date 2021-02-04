@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/ts-axios/',
+  base: '/vuepress-demo/',
   dest: 'dist',
   title: 'TypeScript 从零实现 axios',
   description: '学习使用 TypeScript 从零实现 axios 库',

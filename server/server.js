@@ -8,7 +8,7 @@ const app = express();
 const ossClient = require('./utils/oss');
 const productData = require('./data/productDetail');
 const { user, shop } = require('./model');
-
+// 跨域问题
 app.use(cors({
   origin : "http://localhost:3000",
   credentials: true,

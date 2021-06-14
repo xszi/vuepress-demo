@@ -8,6 +8,8 @@ const sequelize = new Sequelize('mall', 'root', '123456', {
   dialect: 'mysql' // 数据库类型
 });
 
+console.log('conected');
+
 const user = UserModel(sequelize, Sequelize.DataTypes);
 const shop = ShopModel(sequelize, Sequelize.DataTypes);
 
